@@ -1,1 +1,20 @@
+#update.sh
+
+┌──(sanjanarao㉿kali)-[~]
+└─$ mkdir Lab1
+                                                                             
+┌──(sanjanarao㉿kali)-[~]
+└─$ cd Lab1
+                                                                           
+┌──(sanjanarao㉿kali)-[~/Lab1]
+└─$ gedit update.sh       
+
+┌──(sanjanarao㉿kali)-[~/Lab1]
+└─$ chmod 777 update.sh
+                                                                             
+┌──(sanjanarao㉿kali)-[~/Lab1]
+└─$ ./update.sh
+
+
+
 
