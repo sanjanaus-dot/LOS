@@ -1,20 +1,21 @@
 #update.sh
 
 ┌──(sanjanarao㉿kali)-[~]
-└─$ mkdir Lab1
-                                                                             
-┌──(sanjanarao㉿kali)-[~]
-└─$ cd Lab1
-                                                                           
-┌──(sanjanarao㉿kali)-[~/Lab1]
+└─$ mkdir Lab1                                                                             
+└─$ cd Lab1                                                                           
 └─$ gedit update.sh       
-
-┌──(sanjanarao㉿kali)-[~/Lab1]
-└─$ chmod 777 update.sh
-                                                                             
-┌──(sanjanarao㉿kali)-[~/Lab1]
+└─$ chmod 777 update.sh                                                                            
 └─$ ./update.sh
 
+#tool.sh
 
-
+┌──(sanjanarao㉿kali)-[~/Lab1]
+└─$ gedit tool.sh 
+└─$ chmod 777 tool.sh  
+└─$ ./tool.sh  
+Enter tool name: python
+python is installed.
+└─$ ./tool.sh
+Enter tool name: collage
+collage is NOT installed.                       
 
