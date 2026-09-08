@@ -1,0 +1,20 @@
+192.168.1.50 - - [09/Sep/2026:10:01:15 +0000] "GET /index.html HTTP/1.1" 200 3426 "https://google.com" "Mozilla/5.0"
+192.168.1.50 - - [09/Sep/2026:10:01:18 +0000] "GET /css/style.css HTTP/1.1" 200 1204 "http://mysite.com" "Mozilla/5.0"
+192.168.1.72 - - [09/Sep/2026:10:02:01 +0000] "GET /about-us HTTP/1.1" 200 4521 "https://twitter.com" "Mozilla/5.0"
+203.0.113.4 - - [09/Sep/2026:10:03:44 +0000] "GET /broken-link-here HTTP/1.1" 404 284 "http://mysite.com" "Mozilla/5.0"
+192.168.1.72 - - [09/Sep/2026:10:04:12 +0000] "POST /api/login HTTP/1.1" 200 542 "http://mysite.comlogin" "Mozilla/5.0"
+198.51.100.12 - - [09/Sep/2026:10:05:00 +0000] "GET /wp-admin/phpMyAdmin/index.php HTTP/1.1" 404 208 "-" "Bot-Scanner/2.0"
+192.168.1.99 - - [09/Sep/2026:10:06:22 +0000] "POST /checkout/pay HTTP/1.1" 500 892 "http://mysite.comcart" "Mozilla/5.0"
+192.168.1.50 - - [09/Sep/2026:10:07:01 +0000] "GET /images/logo.png HTTP/1.1" 200 18402 "http://mysite.com" "Mozilla/5.0"
+192.168.1.105 - - [09/Sep/2026:10:08:19 +0000] "GET /blog/news HTTP/1.1" 200 6124 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS)"
+203.0.113.4 - - [09/Sep/2026:10:09:55 +0000] "GET /contact HTTP/1.1" 200 2910 "http://mysite.com" "Mozilla/5.0"
+2026-09-09 08:12:01.402 [ERROR] connection pool exhausted while trying to reach postgres-db:5432
+Sep 09 08:13:45 secure-srv sshd[2941]: Failed password for invalid user root from 198.51.100.72 port 49212
+2026/09/09 08:15:22 [error] 1042#1042: *9012 open() "/var/www/html/secret-config.json" failed (13: Permission denied)
+192.168.1.105 - - [09/Sep/2026:08:17:04 +0000] "GET /admin/dashboard HTTP/1.1" 401 532 "-" "Unauthorized access attempt"
+Sep 09 08:19:11 firewall-node1 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:11:22:33:44:55 SRC=203.0.113.55 DST=192.168.1.10 PROTO=TCP SPT=4444 DPT=22 SYN ACCESS_DENIED
+2026-09-09 08:21:40.881 [FATAL] Critical error in transaction pipeline: Payment gateway timeout occurred
+Sep 09 08:23:02 web-auth-service: [Warning] User ID 8842 login failed due to incorrect multi-factor authentication token
+192.168.1.200 - - [09/Sep/2026:08:25:55 +0000] "POST /api/v1/delete-user HTTP/1.1" 403 214 "https://mysite.com" "Error: Unauthorized API token"
+2026/09/09 08:28:14 [error] 1042#1042: *9155 upstream client request failed: 502 Bad Gateway while communicating with node-app
+Sep 09 08:30:00 kernel: [10428.541290] sd 0:0:0:0: [sda] Write Protect is off; internal caching error occurred; request denied by hardware
